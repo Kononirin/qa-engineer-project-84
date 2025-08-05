@@ -2,35 +2,35 @@
 test-cases:
 - summary: |
     Проверка поиска по ключевому слову
-	status: pass
+    status: pass
 
 - summary: |
     Проверка фильтрации по категории
-	status: pass
+    status: pass
 
 - summary: |
     Проверка фильтрации по производителю
-	status: pass
+    status: pass
 
 - summary: |
     Проверка фильтрации по наличию товаров
-	status: pass
+    status: pass
 
 - summary: |
     Проверка фильтрации по цене
-	status: pass
+    status: pass
 
 - summary: |
     Проверка переключения языка интерфейса
-	status: fail
+    status: fail
 
 - summary: |
     Проверка увеличения счетчика товаров
-	status: pass
+    status: pass
 
 - summary: |
     Проверка адаптивности сайта в корзине
-	status: fail
+    status: fail
 
 bugreports:
 - summary: |
