@@ -1,40 +1,44 @@
 ---
 - summary: |
     Проверка входа пользователя с несуществующими логином
-	status: fail
+    status: fail
 
 - summary: |
     Проверка входа пользователя с несуществующими паролем
-	status: fail
+    status: fail
 	
 - summary: |
     Проверка входа пользователя с существующими логином и паролем
-	status: fail
+    status: fail
 	
 - summary: |
     Проверка поиска по ключевому слову
-	status: pass
+    status: pass
 	
 - summary: |
     Проверка фильтрации по категории
-	status: pass
+    status: pass
 	
 - summary: |
     Проверка фильтрации по производителю
-	status: pass
+    status: pass
 	
 - summary: |
     Проверка фильтрации по наличию товаров
-	status: pass
+    status: pass
 	
 - summary: |
     Проверка фильтрации по цене
-	status: pass
+    status: pass
 	
 - summary: |
     Проверка переключения языка интерфейса
-	status: fail
+    status: fail
 	
 - summary: |
     Проверка увеличения счетчика товаров
-	status: pass
+    status: pass
+
+- summary: |
+    Проверка адаптивности сайта в корзине
+    status: fail
