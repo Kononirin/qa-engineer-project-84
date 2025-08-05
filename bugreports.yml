@@ -33,7 +33,7 @@
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Нажать на кнопку переключателя языка
-	3. Выбрать язык "Русский"
+    3. Выбрать язык "Русский"
   expected-result: |
     Описание товаров отображается на русском языке
   actual-result: |
