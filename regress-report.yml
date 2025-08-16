@@ -1,171 +1,147 @@
 ---
 test-cases:
-  - summary: |
-      Проверка поиска по ключевому слову
+  - summary: Проверка поиска по ключевому слову
     status: fail
 
-  - summary: |
-      Проверка фильтрации по категории
+  - summary: Проверка фильтрации по категории
     status: pass
 
-  - summary: |
-      Проверка фильтрации по производителю
+  - summary: Проверка фильтрации по производителю
     status: pass
 
-  - summary: |
-      Проверка фильтрации по наличию товаров
+  - summary: Проверка фильтрации по наличию товаров
     status: pass
 
-  - summary: |
-      Проверка фильтрации по цене
+  - summary: Проверка фильтрации по цене
     status: fail
 
-  - summary: |
-      Проверка интерфейса на английском языке
-    status: pass
-   
-  - summary: |
-      Проверка интерфейса на русском языке
-    status: fail
-
-  - summary: |
-      Проверка увеличения счетчика товаров
+  - summary: Проверка интерфейса на английском языке
     status: pass
 
-  - summary: |
-      Проверка просмотра каталога товаров
-    status: fail
-    
-  - summary: |
-      Проверка просмотра подробной информации о товаре
-    status: pass
-
-  - summary: |
-      Проверка добавления товара в корзину
-    status: pass
-    
-  - summary: |
-      Проверка просмотра содержимого корзины
-    status: pass
-    
-  - summary: |
-      Проверка таблицы с товарами в корзине
-    status: pass
-    
-  - summary: |
-      Проверка адаптивности сайта для мобильного устройства
-    status: fail
-  
-  - summary: |
-      Проверка пагинации страниц на сайте
-    status: pass
-  
-  - summary: |
-      Проверка удаления товара из корзины
-    status: pass
-  
-  - summary: |
-      Проверка очистки корзины
-    status: fail
-  
-  - summary: |
-      Проверка оформления заказа
-    status: fail
-  
-  - summary: |
-      Проверка фильтрации товаров по хештегу на странице товара
-    status: pass
-  
-  - summary: |
-      Проверка обработки пробелов строкой поиска
-    status: fail
-  
-  - summary: |
-      Проверка обработки некорректного текста строкой поиска
-    status: fail
-  
-  - summary: |
-      Проверка обработки набора цифр строкой поиска
+  - summary: Проверка интерфейса на русском языке
     status: fail
 
-  - summary: |
-      Проверка отображения сайта в разных браузерах
+  - summary: Проверка увеличения счетчика товаров
     status: pass
-  
-  - summary: |
-      Проверка статус кода методов
+
+  - summary: Проверка просмотра каталога товаров
     status: fail
-        
+
+  - summary: Проверка просмотра подробной информации о товаре
+    status: pass
+
+  - summary: Проверка добавления товара в корзину
+    status: pass
+
+  - summary: Проверка просмотра содержимого корзины
+    status: pass
+
+  - summary: Проверка таблицы с товарами в корзине
+    status: pass
+
+  - summary: Проверка адаптивности сайта для мобильного устройства
+    status: fail
+
+  - summary: Проверка пагинации страниц на сайте
+    status: pass
+
+  - summary: Проверка удаления товара из корзины
+    status: pass
+
+  - summary: Проверка очистки корзины
+    status: fail
+
+  - summary: Проверка оформления заказа
+    status: fail
+
+  - summary: Проверка фильтрации товаров по хештегу на странице товара
+    status: pass
+
+  - summary: Проверка обработки пробелов строкой поиска
+    status: fail
+
+  - summary: Проверка обработки некорректного текста строкой поиска
+    status: fail
+
+  - summary: Проверка обработки набора цифр строкой поиска
+    status: fail
+
+  - summary: Проверка отображения сайта в разных браузерах
+    status: pass
+
+  - summary: Проверка статус кода методов
+    status: fail
+
 bugreports:
-  - summary: |
+  - summary: >
       В переключателе языков отсутствуют иконки с флагами страны языка (скриншот "bug-report 7.jpg")
-    environment: |
+    environment: >
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       Зайти на страницу https://hexlet-products-store.vercel.app/
       Нажать на ссылку "Язык"
-    expected-result: |
+    expected-result: >
       У каждого языка отображается иконка с флагом страны
-    actual-result: |
+    actual-result: >
       Отсутствует иконка с флагом страны у всех языков
 
-  - summary: |
+  - summary: >
       На вся площадь карточки товара кликабельная (скриншот "bug-report 16.jpg")
-    environment: |
+    environment: >
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       Зайти на страницу https://hexlet-products-store.vercel.app/
       Навести курсор на область описания товара
-    expected-result: |
+    expected-result: >
       Курсор поменял состояние, можно кликнуть на карточку товара
-    actual-result: |
+    actual-result: >
       Курсор не поменял состояние, невозможно кликнуть на карточку товара
 
-  - summary: |
+  - summary: >
       При выборе двух фильтров отображаются все товары (скриншот "bug-report 17.jpg")
-    environment: |
+    environment: >
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       Зайти на страницу https://hexlet-products-store.vercel.app/
       Выбрать любую категорию в фильтре "Категория"
       Выбрать любого производителя в фильтре "Производитель"
-    expected-result: |
+    expected-result: >
       Отображаются товары, соответствующие поиску или текст "Ничего не найдено"
-    actual-result: |
+    actual-result: >
       Отображаются все товары из каталога
 
-  - summary: |
+  - summary: >
       Поиск не обрабатывает некорректные данные (скриншот "bug-report 18.jpg")
-    environment: |
+    environment: >
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       Зайти на страницу https://hexlet-products-store.vercel.app/
       В поле "Поиск" ввести:
       пробелы
       рандомный набор букв
       рандомный набор цифр
-    expected-result: |
+    expected-result: >
       Отображается текст "Ничего не найдено!"
-    actual-result: |
+    actual-result: >
       Отображаются все товары из каталога
 
-  - summary: |
+  - summary: >
       Не очищается корзина (скриншот "bug-report 19.jpg")
-    environment: |
+    environment: >
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       Зайти на страницу https://hexlet-products-store.vercel.app/
       Положить товары в корзину
       Перейти в корзину
       Нажать на кнопку "Очистить корзину"
       Нажать на ссылку "Магазин"
       Перейти в корзину
-    expected-result: |
+    expected-result: >
       В корзине не отображаются товары, которые очистили. Счетчик у ссылки "Корзина" отсутствует. 
-    actual-result: |
-      Отображаются товары, которые очистили. Счетчик отображается с количеством товаров, которые находятся в корзине. 
+    actual-result: >
+      Отображаются товары, которые очистили. Счетчик отображается с количеством товаров, которые находятся в корзине.
