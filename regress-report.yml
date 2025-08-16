@@ -104,7 +104,7 @@ bugreports:
       ОС Windows 10
     steps-to-reproduce: |
       Зайти на страницу https://hexlet-products-store.vercel.app/
-	  Нажать на ссылку "Язык"
+      Нажать на ссылку "Язык"
     expected-result: |
       У каждого языка отображается иконка с флагом страны
     actual-result: |
