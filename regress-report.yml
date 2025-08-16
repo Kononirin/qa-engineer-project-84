@@ -103,8 +103,8 @@ bugreports:
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app/
-	  2. Нажать на ссылку "Язык"
+      Зайти на страницу https://hexlet-products-store.vercel.app/
+	  Нажать на ссылку "Язык"
     expected-result: |
       У каждого языка отображается иконка с флагом страны
     actual-result: |
@@ -116,8 +116,8 @@ bugreports:
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app/
-	  2. Навести курсор на область описания товара
+      Зайти на страницу https://hexlet-products-store.vercel.app/
+	  Навести курсор на область описания товара
     expected-result: |
       Курсор поменял состояние, можно кликнуть на карточку товара
     actual-result: |
@@ -129,9 +129,9 @@ bugreports:
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app/
-	  2. Выбрать любую категорию в фильтре "Категория"
-	  3. Выбрать любого производителя в фильтре "Производитель"
+      Зайти на страницу https://hexlet-products-store.vercel.app/
+	  Выбрать любую категорию в фильтре "Категория"
+	  Выбрать любого производителя в фильтре "Производитель"
     expected-result: |
       Отображаются товары, соответствующие поиску или текст "Ничего не найдено"
     actual-result: |
@@ -143,11 +143,11 @@ bugreports:
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app/
-	  2. В поле "Поиск" ввести:
-	    - пробелы
-		- рандомный набор букв
-		- рандомный набор цифр
+      Зайти на страницу https://hexlet-products-store.vercel.app/
+	  В поле "Поиск" ввести:
+	  пробелы
+	  рандомный набор букв
+	  рандомный набор цифр
     expected-result: |
       Отображается текст "Ничего не найдено!"
     actual-result: |
@@ -159,12 +159,12 @@ bugreports:
       Google Chrome   138.0.7204.184 (Официальная сборка) (64 бит)
       ОС Windows 10
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app/
-	  2. Положить товары в корзину
-	  3. Перейти в корзину
-	  4. Нажать на кнопку "Очистить корзину"
-	  5. Нажать на ссылку "Магазин"
-	  6. Перейти в корзину
+      Зайти на страницу https://hexlet-products-store.vercel.app/
+	  Положить товары в корзину
+	  Перейти в корзину
+	  Нажать на кнопку "Очистить корзину"
+	  Нажать на ссылку "Магазин"
+	  Перейти в корзину
     expected-result: |
       В корзине не отображаются товары, которые очистили. Счетчик у ссылки "Корзина" отсутствует. 
     actual-result: |
