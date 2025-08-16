@@ -144,7 +144,7 @@ bugreports:
       ОС Windows 10
     steps-to-reproduce: |
       Зайти на страницу https://hexlet-products-store.vercel.app/
-	  В поле "Поиск" ввести:
+      В поле "Поиск" ввести:
 	  пробелы
 	  рандомный набор букв
 	  рандомный набор цифр
