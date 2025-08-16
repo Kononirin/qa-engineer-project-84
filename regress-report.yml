@@ -117,7 +117,7 @@ bugreports:
       ОС Windows 10
     steps-to-reproduce: |
       Зайти на страницу https://hexlet-products-store.vercel.app/
-	  Навести курсор на область описания товара
+      Навести курсор на область описания товара
     expected-result: |
       Курсор поменял состояние, можно кликнуть на карточку товара
     actual-result: |
